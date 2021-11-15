@@ -97,19 +97,21 @@
 
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore sit accusamus consequatur distinctio placeat aliquid repudiandae, nobis exercitationem, nesciunt nemo obcaecati, velit officiis quod voluptas. Eveniet odit quasi eligendi sed necessitatibus voluptatem pariatur ipsa odio rem non, beatae quis vitae libero nulla facilis reprehenderit placeat maiores repellat? Consequatur ipsum dolores fugiat tenetur cumque id. Exercitationem dignissimos suscipit hic odio aperiam molestias vitae, voluptatibus officia laborum asperiores soluta magnam corporis officiis sunt dolorum nam nemo totam distinctio illum? Laudantium molestias ea sed nobis quisquam sunt necessitatibus quidem consequuntur voluptatum dolor eaque natus repudiandae, nulla voluptas neque distinctio quasi facilis ducimus sapiente?</p>
 
-    <div class="container bg-dark">
+    
+    <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-          </a>
-          <span class="text-muted">&copy; 2021 Company, Inc</span>
-        </div>
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
         </ul>
       </footer>
     </div>
