@@ -29,6 +29,24 @@
     </style>
   </head>
   <body>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+      
+    </ul>
     <h1 class="text-center">Yassine</h1>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
